@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS produto (	
+	id INT  NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	Nome INT, 
+	Descricao VARCHAR(100),
+	Preco VARCHAR(100),
+	Data_atualizada DATE 
+	STATUS ENUM("ativo", "realizado", "cancelado") DEFAULT "ativo" 
+);
