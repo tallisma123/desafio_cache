@@ -1,0 +1,8 @@
+CREATE TABLE  produto (	
+	id INT  NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	Nome Int, 
+	Descricao VARCHAR(100),
+	Email VARCHAR(100),
+	Idade int, 
+	STATUS ENUM("ativo", "realizado", "cancelado") DEFAULT "ativo" 
+);
